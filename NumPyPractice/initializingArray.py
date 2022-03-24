@@ -24,3 +24,7 @@ print(x5)
 # if we want number of elements instead of step
 x6 = np.linspace(0,2,9) # we want 9 equally spaced elements between 0 and 2
 print(x6)
+
+#reshaping a sequence
+x7 = np.arange(1000).reshape(100,10)
+print(x7)
